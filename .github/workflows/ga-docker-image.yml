@@ -25,4 +25,4 @@ jobs:
         docker image build -t ghazimeftah/gmeftah .
     - name: docker push
       run: |
-        docker build ghazimeftah/gmeftah
+        docker push ghazimeftah/gmeftah
