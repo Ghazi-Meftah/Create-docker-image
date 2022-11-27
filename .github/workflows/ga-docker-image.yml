@@ -16,6 +16,6 @@ jobs:
     - uses: actions/checkout@v3
     - name: Build & Push the Docker image
       run: | 
-        echo "${{ secrets.DOCKER_PW }}" | docker login -u "ghazimeftah" --password-stdin
-        docker image build -t ghazimeftah/tether:latest .
-        docker push ghazimeftah/tether:latest
+        echo "${{ secrets.DOCKER_PW }}" | docker login -u "Ghazi-Meftah" --password-stdin
+        docker image build -t Ghazi-Meftah/tether:latest .
+        docker push Ghazi-Meftah/tether:latest
