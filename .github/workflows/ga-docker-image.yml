@@ -22,8 +22,5 @@ jobs:
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
     - name: docker build
       run: | 
-        docker image build -t ghazimeftah/gmeftah .
-    - name: docker push
-      run: |
         docker push ghazimeftah/gmeftah
       
