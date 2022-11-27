@@ -1,0 +1,2 @@
+API_KEY='573cb60b-c72b-4746-8938-21afd5da215a'
+CCY='USDT'
