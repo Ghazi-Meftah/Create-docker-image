@@ -14,7 +14,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Build & Push the Docker image
+    - name: Build
       run: | 
-        docker image build -t ghazimeftah/gmeftah:latest .
-        docker push ghazimeftah/gmeftah:latest
+        docker image build -t ghazimeftah/gmeftah .
+      
